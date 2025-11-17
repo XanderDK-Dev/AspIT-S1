@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="EX01HelloWorld/EX01HelloWorld.csproj" />
+  <Project Path="EX02Datatypes/EX02Datatypes.csproj" />
+  <Project Path="EX04ReadLine/EX04ReadLine.csproj" />
+</Solution>
