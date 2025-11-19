@@ -20,6 +20,7 @@
                     Console.Clear();
                     Console.WriteLine("How old are you:");
                     int age = int.Parse(Console.ReadLine());
+                    Console.Clear();
                     Console.WriteLine($"Velkommen {firstName} {lastName} alder {age}");
                 }
                 else if (pickInput == "Firkant")
@@ -36,6 +37,7 @@
                 }
                 else if (pickInput == "Art")
                 {
+                    Console.Clear();
                     Console.WriteLine("     AA          BBBB         CCC");
                     Console.WriteLine("    A  A         B    B     C      C");
                     Console.WriteLine("   A    A        B    B    C");
