@@ -2,4 +2,7 @@
   <Project Path="EX01HelloWorld/EX01HelloWorld.csproj" />
   <Project Path="EX02Datatypes/EX02Datatypes.csproj" />
   <Project Path="EX04ReadLine/EX04ReadLine.csproj" />
+  <Project Path="EX05Arithmetic/EX05Arithmetic.csproj" Id="4479c2fa-85c6-4ea1-8f91-0742f695bf03" />
+  <Project Path="EX06ComparisonOperators/EX06ComparisonOperators.csproj" Id="5b1ae8be-43ca-48e8-9aac-c6014bcfd3f7" />
+  <Project Path="EX07SelectionIfElse/EX07SelectionIfElse.csproj" Id="3964e446-1ed9-4454-baa0-928218518891" />
 </Solution>
