@@ -4,5 +4,10 @@
   <Project Path="EX04ReadLine/EX04ReadLine.csproj" />
   <Project Path="EX05Arithmetic/EX05Arithmetic.csproj" Id="4479c2fa-85c6-4ea1-8f91-0742f695bf03" />
   <Project Path="EX06ComparisonOperators/EX06ComparisonOperators.csproj" Id="5b1ae8be-43ca-48e8-9aac-c6014bcfd3f7" />
+  <Project Path="EX07ExtraSelectionIfElse/EX07ExtraSelectionIfElse.csproj" Id="14e42a1f-67e2-45e5-a951-aa90734a35da" />
   <Project Path="EX07SelectionIfElse/EX07SelectionIfElse.csproj" Id="3964e446-1ed9-4454-baa0-928218518891" />
+  <Project Path="EX08BooleanAlgebra/EX08BooleanAlgebra.csproj" Id="dc9ed88b-6c86-4d77-bc8f-08fd9e80318a" />
+  <Project Path="EX09BooleanIf/EX09BooleanIf.csproj" Id="986357b4-6ce9-4195-a43f-3ef55480e312" />
+  <Project Path="Opgave1/Opgave1.csproj" Id="70f7a2f9-59b5-4fdc-b5d1-66ce5aa1af62" />
+  <Project Path="Opgave2/Opgave2.csproj" Id="d5d6db8b-3b6a-43c5-8830-4fd93536aa38" />
 </Solution>
