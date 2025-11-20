@@ -11,6 +11,7 @@ namespace EX07SelectionIfElse
             pickInput = Console.ReadLine();
             if (pickInput == "1")
             {
+                Console.Clear();
                 double price = 0;
                 Console.WriteLine("How much do you want to shop for?");
                 price = double.Parse(Console.ReadLine());
@@ -25,6 +26,7 @@ namespace EX07SelectionIfElse
             }
             else if (pickInput == "2")
             {
+                Console.Clear();
                 int num1 = 0;
                 int num2 = 0;
                 Console.WriteLine("Input a number, afterwards press enter:");
@@ -43,6 +45,7 @@ namespace EX07SelectionIfElse
             }
             else if (pickInput == "3")
             {
+                Console.Clear();
                 double inputOne = 0;
                 double inputTwo = 0;
                 Console.WriteLine("Input number one, afterwards press enter:");
@@ -57,6 +60,7 @@ namespace EX07SelectionIfElse
             }
             else if (pickInput == "4")
             {
+                Console.Clear();
                 int numOne = 0;
                 int numTwo = 0;
                 Console.WriteLine("Input number one, afterwards press enter:");
@@ -82,6 +86,7 @@ namespace EX07SelectionIfElse
             }
             else if (pickInput == "5")
             {
+                Console.Clear();
                 int alignOne = 0;
                 int alignTwo = 0;
                 Console.WriteLine("Input number one, afterwards press enter:");
@@ -107,6 +112,7 @@ namespace EX07SelectionIfElse
             }
             else if (pickInput == "6")
             {
+                Console.Clear();
                 int positiveOne = 0;
                 Console.WriteLine("Input number, afterwards press enter:");
                 positiveOne = int.Parse(Console.ReadLine());
@@ -130,6 +136,7 @@ namespace EX07SelectionIfElse
             }
             else if (pickInput == "7")
             {
+                Console.Clear();
                 int gram = 0;
                 int price = 0;
                 string express = "";
@@ -178,6 +185,7 @@ namespace EX07SelectionIfElse
             }
             else if (pickInput == "8")
             {
+                Console.Clear();
                 string mathChoice = "";
                 int numberOne = 0;
                 int numberTwo = 0;
