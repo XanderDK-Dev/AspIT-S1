@@ -15,4 +15,6 @@
   <Project Path="Opgave3/Opgave3.csproj" Id="82f78571-a30f-4060-9544-1f0712ce5f25" />
   <Project Path="Opgave4/Opgave4.csproj" Id="6e032e09-c94c-4405-8bba-09ed305b2953" />
   <Project Path="Opgave5/Opgave5.csproj" Id="5dd59e15-22cb-40c1-8d2d-4487a3e59ce9" />
+  <Project Path="Smart Menu/Smart Menu.csproj" Id="91b90aaf-fe25-4b54-a9be-d2c63fafffc9" />
+  <Project Path="WhileOpgave1/WhileOpgave1.csproj" Id="89720eb8-8bd7-4758-a665-ff410ccf4409" />
 </Solution>
