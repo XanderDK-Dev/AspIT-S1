@@ -12,3 +12,18 @@ C:\Users\70835\OneDrive - Campus Vejle\Dokumenter\Software\S1\WhileOpgave1\obj\D
 C:\Users\70835\OneDrive - Campus Vejle\Dokumenter\Software\S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.pdb
 C:\Users\70835\OneDrive - Campus Vejle\Dokumenter\Software\S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.genruntimeconfig.cache
 C:\Users\70835\OneDrive - Campus Vejle\Dokumenter\Software\S1\WhileOpgave1\obj\Debug\net10.0\ref\WhileOpgave1.dll
+S:\Dev\AspIT-S1\WhileOpgave1\bin\Debug\net10.0\WhileOpgave1.exe
+S:\Dev\AspIT-S1\WhileOpgave1\bin\Debug\net10.0\WhileOpgave1.deps.json
+S:\Dev\AspIT-S1\WhileOpgave1\bin\Debug\net10.0\WhileOpgave1.runtimeconfig.json
+S:\Dev\AspIT-S1\WhileOpgave1\bin\Debug\net10.0\WhileOpgave1.dll
+S:\Dev\AspIT-S1\WhileOpgave1\bin\Debug\net10.0\WhileOpgave1.pdb
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.GeneratedMSBuildEditorConfig.editorconfig
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.AssemblyInfoInputs.cache
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.AssemblyInfo.cs
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.csproj.CoreCompileInputs.cache
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.sourcelink.json
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.dll
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\refint\WhileOpgave1.dll
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.pdb
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\WhileOpgave1.genruntimeconfig.cache
+S:\Dev\AspIT-S1\WhileOpgave1\obj\Debug\net10.0\ref\WhileOpgave1.dll
