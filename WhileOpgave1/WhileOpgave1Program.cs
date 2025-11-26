@@ -75,6 +75,86 @@
                         num = int.Parse(Console.ReadLine());
                     }
                     break;
+
+                case ConsoleKey.G:
+                    int gNum = 1;
+                    while (gNum == 1 || gNum == 2)
+                    {
+                        Console.Clear();
+                        Console.WriteLine("1) for at høre noget om køer\n2) for at få resultatet af 2*4\n3) for at afslutte programmet");
+                       gNum = int.Parse(Console.ReadLine());
+                    }
+                    break;
+                case ConsoleKey.H:
+                    int hNum = -1;
+                    do
+                    {
+                        hNum++;
+                        Console.WriteLine($"While statement {hNum}");
+                    } while (hNum < 9);
+                    break;
+                case ConsoleKey.I:
+                    int iNum = 11;
+                    do
+                    {
+                        iNum--;
+                        Console.WriteLine($"While statement {iNum}");
+                    } while (iNum > 1);
+                    break;
+                case ConsoleKey.J:
+                    bool jFinal = false;
+                    while (jFinal == false)
+                    {
+                        
+                        Random rnd = new Random();
+                        int jNum1 = rnd.Next(1, 10);
+                        int jNum2 = rnd.Next(1, 10);
+                        int jResult = jNum1 + jNum2;
+                        int jAnswer = -1;
+                        string jInput = string.Empty;
+                        Console.WriteLine($"{jNum1} + {jNum2} = ?");
+                        Console.WriteLine("Skriv dit svar:");
+                        keyInfo = Console.ReadKey();
+
+                        if (keyInfo.Key == ConsoleKey.Escape || keyInfo.Key == ConsoleKey.Enter)
+                        {
+                            Console.WriteLine("Du har ikke indtasted noget.");
+                        }
+
+                        else if (keyInfo.Key == ConsoleKey.Q)
+                        {
+                            Environment.Exit(0);
+                        }
+                        else
+                        {
+                            jInput += keyInfo.KeyChar;
+                        }
+
+                        if (jAnswer > -1)
+                        {
+                            if (jAnswer == jResult)
+                            {
+                                jFinal = true;
+                            }
+
+                            else 
+                            {
+                                jFinal = false;
+                            }
+
+                            if (jFinal == true)
+                            {
+                                Console.WriteLine("Tillykke, du har svaret rigtigt!");
+                            }
+
+                            else if (jFinal == false)
+                            {
+                                Console.WriteLine("Desværre, det er ikke det rigtige svar. Prøv igen.");
+                            }
+
+                        }
+                    }
+                    break;
             }
         }
     }
