@@ -1,0 +1,15 @@
+S:\Dev\AspIT-S1\EX14Lists\bin\Debug\net10.0\EX14Lists.exe
+S:\Dev\AspIT-S1\EX14Lists\bin\Debug\net10.0\EX14Lists.deps.json
+S:\Dev\AspIT-S1\EX14Lists\bin\Debug\net10.0\EX14Lists.runtimeconfig.json
+S:\Dev\AspIT-S1\EX14Lists\bin\Debug\net10.0\EX14Lists.dll
+S:\Dev\AspIT-S1\EX14Lists\bin\Debug\net10.0\EX14Lists.pdb
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.GeneratedMSBuildEditorConfig.editorconfig
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.AssemblyInfoInputs.cache
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.AssemblyInfo.cs
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.csproj.CoreCompileInputs.cache
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.sourcelink.json
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.dll
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\refint\EX14Lists.dll
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.pdb
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\EX14Lists.genruntimeconfig.cache
+S:\Dev\AspIT-S1\EX14Lists\obj\Debug\net10.0\ref\EX14Lists.dll
