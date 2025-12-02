@@ -12,7 +12,8 @@
   <Project Path="EX11While/EX11While.csproj" Id="e6a07a34-5ab8-40a6-aa77-3a942565c7ca" />
   <Project Path="EX13Arrays/EX13Arrays.csproj" />
   <Project Path="EX14Lists/EX14Lists.csproj" Id="e67c9839-2ad4-495e-bedd-f59e1f3ae278" />
-  <Project Path="EX15Methods/EX15Methods.csproj" />
+  <Project Path="EX15Methods/EX16Methods.csproj" />
+  <Project Path="EX15Time/EX15Time.csproj" Id="de6b1922-fc52-489b-9edd-7eb9694602f1" />
   <Project Path="Opgave1/Opgave1.csproj" Id="70f7a2f9-59b5-4fdc-b5d1-66ce5aa1af62" />
   <Project Path="Opgave2/Opgave2.csproj" Id="d5d6db8b-3b6a-43c5-8830-4fd93536aa38" />
   <Project Path="Opgave3/Opgave3.csproj" Id="82f78571-a30f-4060-9544-1f0712ce5f25" />
