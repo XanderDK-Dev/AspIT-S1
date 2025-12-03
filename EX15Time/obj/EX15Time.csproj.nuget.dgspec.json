@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "S:\\Dev\\AspIT-S1\\EX15Time\\EX15Time.csproj": {}
+    "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\EX15Time\\EX15Time.csproj": {}
   },
   "projects": {
-    "S:\\Dev\\AspIT-S1\\EX15Time\\EX15Time.csproj": {
+    "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\EX15Time\\EX15Time.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\Dev\\AspIT-S1\\EX15Time\\EX15Time.csproj",
+        "projectUniqueName": "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\EX15Time\\EX15Time.csproj",
         "projectName": "EX15Time",
-        "projectPath": "S:\\Dev\\AspIT-S1\\EX15Time\\EX15Time.csproj",
-        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "S:\\Dev\\AspIT-S1\\EX15Time\\obj\\",
+        "projectPath": "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\EX15Time\\EX15Time.csproj",
+        "packagesPath": "C:\\Users\\70835\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\EX15Time\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\70835\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

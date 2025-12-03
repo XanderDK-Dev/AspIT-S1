@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("a) Opgave1\nb) Udskriv tabeller\nc) Få det rette input");
+            ConsoleKeyInfo keyInfo = Console.ReadKey();
+            Console.Clear();
+            switch (keyInfo.Key)
+            {
+                case ConsoleKey.A:
+                    {
+
+                    }
+                    break;
+            }
         }
     }
 }
