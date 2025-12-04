@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Opgave1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+753bc549bb6166d53fde3ab42a0ee55834fbbc91")]
 [assembly: System.Reflection.AssemblyProductAttribute("Opgave1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Opgave1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,22 +9,24 @@
             p.FirstName = "Karl";
             p.LastName = "Hansen";
             p.BirthDate = new DateTime(1946, 01, 02);
+            p.Height = 182;
+            p.Weight = 74;
             p.GetInitials();
-
+            p.GetAgeToday();
             string output = p.GetInitials();
             Console.WriteLine(output);
 
-            // Save today's date.
-            var today = DateTime.Today;
+            int output2 = p.GetAgeToday();
+            Console.WriteLine(output2);
 
-            // Calculate the age.
-            var age = today.Year - p.BirthDate.Year;
+            bool output3 = p.IsOlderThan(42);
+            Console.WriteLine(output3);
 
-            // If the birthdate hasn't arrived yet, subtract one year.
-            if (p.BirthDate.Date > today.AddYears(-age)) age--;
+            int output4 = p.GetAgeAt(new DateTime(2026, 02, 03));
+            Console.WriteLine(output4);
 
-            Console.WriteLine(age);
-
+            double output5 = p.GetBmi();
+            Console.WriteLine(output5);
         }
     }
 }

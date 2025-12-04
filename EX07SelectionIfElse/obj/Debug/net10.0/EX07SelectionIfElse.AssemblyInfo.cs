@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EX07SelectionIfElse")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+753bc549bb6166d53fde3ab42a0ee55834fbbc91")]
 [assembly: System.Reflection.AssemblyProductAttribute("EX07SelectionIfElse")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EX07SelectionIfElse")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
