@@ -27,6 +27,21 @@
 
             double output5 = p.GetBmi();
             Console.WriteLine(output5);
+
+
+            Car c = new();
+            c.Make = "Volkswagen";
+            c.Model = "Golf";
+            c.ManufacturingDate = new DateTime(2011, 08, 28);
+            c.NewPrice = 295998;
+            c.KilometresDriven = 287000;
+            c.Colour = "Grey";
+            c.TopSpeed = 190;
+            c.EnginePeformanceKilowatt = 77;
+            c.CarType = "Diesel";
+
+            string output6 = c.SalesPrice();
+            Console.WriteLine(output6);
         }
     }
 }
