@@ -28,6 +28,9 @@
             double output5 = p.GetBmi();
             Console.WriteLine(output5);
 
+            string output6 = p.PersonDescription();
+            Console.WriteLine(output6);
+
 
             Car c = new();
             c.Make = "Volkswagen";
@@ -40,8 +43,16 @@
             c.EnginePeformanceKilowatt = 77;
             c.CarType = "Diesel";
 
-            string output6 = c.SalesPrice();
-            Console.WriteLine(output6);
+            string output7 = c.SalesPrice();
+            Console.WriteLine(output7);
+
+            Product i = new();
+            i.Id = 592017;
+            i.Name = "Sonos Era 100";
+            i.Created = new DateTime(2023, 03, 28);
+            i.Price = 187;
+            string output8 = i.ToString();
+            Console.WriteLine(output8);
         }
     }
 }

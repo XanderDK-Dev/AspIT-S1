@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\70835\\.nuget\\packages\\": {},
+    "C:\\Users\\alexa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\OOPBasics\\OOPBasics.csproj",
+      "projectUniqueName": "S:\\Dev\\AspIT-S1\\OOPBasics\\OOPBasics.csproj",
       "projectName": "OOPBasics",
-      "projectPath": "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\OOPBasics\\OOPBasics.csproj",
-      "packagesPath": "C:\\Users\\70835\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\70835\\OneDrive - Campus Vejle\\Dokumenter\\Software\\S1\\AspIT-S1\\OOPBasics\\obj\\",
+      "projectPath": "S:\\Dev\\AspIT-S1\\OOPBasics\\OOPBasics.csproj",
+      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+      "outputPath": "S:\\Dev\\AspIT-S1\\OOPBasics\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\70835\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

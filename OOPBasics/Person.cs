@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -33,25 +34,18 @@ namespace OOPBasics
             var today = DateTime.Today;
 
             // Calculate the age.
-            var age = today.Year - BirthDate.Year;
-
-            // If the birthdate hasn't arrived yet, subtract one year.
-            if (BirthDate.Date > today.AddYears(-age)) age--;
-
-            return age;
-        }
-
-        public bool IsOlderThan(int age)
-        {
-           
-            // Save today's date.
-            var today = DateTime.Today;
-
-            // Calculate the age.
             var myAge = today.Year - BirthDate.Year;
 
             // If the birthdate hasn't arrived yet, subtract one year.
             if (BirthDate.Date > today.AddYears(-myAge)) myAge--;
+
+            return myAge;
+        }
+
+        public bool IsOlderThan(int age)
+        {
+
+            var myAge = GetAgeToday();
 
             if (myAge > age) {return true;}
             else return false;
@@ -60,20 +54,21 @@ namespace OOPBasics
         public int GetAgeAt(DateTime date)
         {
             // Calculate the age.
-            var age = date.Year - BirthDate.Year;
+            var myAge = date.Year - BirthDate.Year;
 
             // If the birthdate hasn't arrived yet, subtract one year.
-            if (BirthDate.Date > date.AddYears(-age)) age--;
+            if (BirthDate.Date > date.AddYears(-myAge)) myAge--;
 
-            return age;
+            return myAge;
         }
 
         public double GetBmi()
         {
             double bmi = 0;
-            Height = Height / 100;
-            Height = Height * Height;
-            bmi = Weight / Height;
+            double BmiHeight = Height;
+            BmiHeight = BmiHeight / 100;
+            BmiHeight = BmiHeight * BmiHeight;
+            bmi = Weight / BmiHeight;
             return bmi;
 
         }
@@ -90,6 +85,22 @@ namespace OOPBasics
             else if (bmi > 34.9 && bmi < 39.9) { bmiStatus = "Obese Class 2"; }
             else if (bmi > 39.9) { bmiStatus = "Obese Class 3"; }
             return bmiStatus;
+        }
+
+        public string PersonDescription()
+        {
+            string fName = FirstName;
+            string lName = LastName;
+            DateTime bDay = BirthDate;
+            var ageToday = GetAgeToday();
+            DateTime adult = bDay.AddYears(18);
+            DateTime today = DateTime.Now;
+            double bmi = GetBmi();
+            string bmiStatus = BmiDescription();
+
+            string story = $"{fName} {lName} was born the {bDay.ToShortDateString()} and is today {today.ToShortDateString()} {ageToday} years old. {fName} was 18 years old in {adult.Year} and has a BMI at {bmi} which is considered {bmiStatus}";
+
+            return story;
         }
     }
 }
