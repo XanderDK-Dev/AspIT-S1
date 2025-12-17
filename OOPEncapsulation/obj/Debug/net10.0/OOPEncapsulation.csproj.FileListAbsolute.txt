@@ -1,0 +1,15 @@
+S:\Dev\AspIT-S1\OOPEncapsulation\bin\Debug\net10.0\OOPEncapsulation.exe
+S:\Dev\AspIT-S1\OOPEncapsulation\bin\Debug\net10.0\OOPEncapsulation.deps.json
+S:\Dev\AspIT-S1\OOPEncapsulation\bin\Debug\net10.0\OOPEncapsulation.runtimeconfig.json
+S:\Dev\AspIT-S1\OOPEncapsulation\bin\Debug\net10.0\OOPEncapsulation.dll
+S:\Dev\AspIT-S1\OOPEncapsulation\bin\Debug\net10.0\OOPEncapsulation.pdb
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.GeneratedMSBuildEditorConfig.editorconfig
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.AssemblyInfoInputs.cache
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.AssemblyInfo.cs
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.csproj.CoreCompileInputs.cache
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.sourcelink.json
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.dll
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\refint\OOPEncapsulation.dll
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.pdb
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\OOPEncapsulation.genruntimeconfig.cache
+S:\Dev\AspIT-S1\OOPEncapsulation\obj\Debug\net10.0\ref\OOPEncapsulation.dll

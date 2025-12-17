@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "S:\\Dev\\AspIT-S1\\EX17Objects\\EX17Objects.csproj": {}
+    "S:\\Dev\\AspIT-S1\\EX18SimpleClasses\\EX18SimpleClasses.csproj": {}
   },
   "projects": {
-    "S:\\Dev\\AspIT-S1\\EX17Objects\\EX17Objects.csproj": {
+    "S:\\Dev\\AspIT-S1\\EX18SimpleClasses\\EX18SimpleClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\Dev\\AspIT-S1\\EX17Objects\\EX17Objects.csproj",
-        "projectName": "EX17Objects",
-        "projectPath": "S:\\Dev\\AspIT-S1\\EX17Objects\\EX17Objects.csproj",
+        "projectUniqueName": "S:\\Dev\\AspIT-S1\\EX18SimpleClasses\\EX18SimpleClasses.csproj",
+        "projectName": "EX18SimpleClasses",
+        "projectPath": "S:\\Dev\\AspIT-S1\\EX18SimpleClasses\\EX18SimpleClasses.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "S:\\Dev\\AspIT-S1\\EX17Objects\\obj\\",
+        "outputPath": "S:\\Dev\\AspIT-S1\\EX18SimpleClasses\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

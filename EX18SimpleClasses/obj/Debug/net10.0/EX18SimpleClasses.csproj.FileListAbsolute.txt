@@ -1,0 +1,15 @@
+S:\Dev\AspIT-S1\EX18SimpleClasses\bin\Debug\net10.0\EX18SimpleClasses.exe
+S:\Dev\AspIT-S1\EX18SimpleClasses\bin\Debug\net10.0\EX18SimpleClasses.deps.json
+S:\Dev\AspIT-S1\EX18SimpleClasses\bin\Debug\net10.0\EX18SimpleClasses.runtimeconfig.json
+S:\Dev\AspIT-S1\EX18SimpleClasses\bin\Debug\net10.0\EX18SimpleClasses.dll
+S:\Dev\AspIT-S1\EX18SimpleClasses\bin\Debug\net10.0\EX18SimpleClasses.pdb
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.GeneratedMSBuildEditorConfig.editorconfig
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.AssemblyInfoInputs.cache
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.AssemblyInfo.cs
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.csproj.CoreCompileInputs.cache
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.sourcelink.json
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.dll
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\refint\EX18SimpleClasses.dll
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.pdb
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\EX18SimpleClasses.genruntimeconfig.cache
+S:\Dev\AspIT-S1\EX18SimpleClasses\obj\Debug\net10.0\ref\EX18SimpleClasses.dll
