@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOPEncapsulation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc183539469d832ec99aba23a130c0ec47c62ff6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e831d7b772b4af8f04b82cf6a576d05cbebf5b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOPEncapsulation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOPEncapsulation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

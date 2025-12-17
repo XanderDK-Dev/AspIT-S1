@@ -1,28 +1,28 @@
 <Solution>
+  <Project Path="EX01HelloWorld/EX01HelloWorld.csproj" />
+  <Project Path="EX02Datatypes/EX02Datatypes.csproj" />
+  <Project Path="EX04ReadLine/EX04ReadLine.csproj" />
+  <Project Path="EX05Arithmetic/EX05Arithmetic.csproj" />
+  <Project Path="EX06ComparisonOperators/EX06ComparisonOperators.csproj" />
+  <Project Path="EX07ExtraSelectionIfElse/EX07ExtraSelectionIfElse.csproj" />
+  <Project Path="EX07SelectionIfElse/EX07SelectionIfElse.csproj" />
+  <Project Path="EX08BooleanAlgebra/EX08BooleanAlgebra.csproj" />
+  <Project Path="EX09BooleanIf/EX09BooleanIf.csproj" />
+  <Project Path="EX10Switch/EX10Switch.csproj" />
+  <Project Path="EX11While/EX11While.csproj" />
+  <Project Path="EX13Arrays/EX13Arrays.csproj" />
+  <Project Path="EX14Lists/EX14Lists.csproj" />
+  <Project Path="EX15Time/EX15Time.csproj" />
+  <Project Path="EX16Methods/EX16Methods.csproj" />
+  <Project Path="EX17Objects/EX17Objects.csproj" />
+  <Project Path="EX18SimpleClasses/EX18SimpleClasses.csproj" />
+  <Project Path="OOPBasics/OOPBasics.csproj" />
   <Project Path="OOPEncapsulation/OOPEncapsulation.csproj" />
-  <Project Path="S:/Dev/AspIT-S1/EX01HelloWorld/EX01HelloWorld.csproj" />
-  <Project Path="S:/Dev/AspIT-S1/EX02Datatypes/EX02Datatypes.csproj" />
-  <Project Path="S:/Dev/AspIT-S1/EX04ReadLine/EX04ReadLine.csproj" />
-  <Project Path="S:/Dev/AspIT-S1/EX05Arithmetic/EX05Arithmetic.csproj" Id="4479c2fa-85c6-4ea1-8f91-0742f695bf03" />
-  <Project Path="S:/Dev/AspIT-S1/EX06ComparisonOperators/EX06ComparisonOperators.csproj" Id="5b1ae8be-43ca-48e8-9aac-c6014bcfd3f7" />
-  <Project Path="S:/Dev/AspIT-S1/EX07ExtraSelectionIfElse/EX07ExtraSelectionIfElse.csproj" Id="14e42a1f-67e2-45e5-a951-aa90734a35da" />
-  <Project Path="S:/Dev/AspIT-S1/EX07SelectionIfElse/EX07SelectionIfElse.csproj" Id="3964e446-1ed9-4454-baa0-928218518891" />
-  <Project Path="S:/Dev/AspIT-S1/EX08BooleanAlgebra/EX08BooleanAlgebra.csproj" Id="dc9ed88b-6c86-4d77-bc8f-08fd9e80318a" />
-  <Project Path="S:/Dev/AspIT-S1/EX09BooleanIf/EX09BooleanIf.csproj" Id="986357b4-6ce9-4195-a43f-3ef55480e312" />
-  <Project Path="S:/Dev/AspIT-S1/EX10Switch/EX10Switch.csproj" Id="a0a05b05-49c2-4b9b-8273-9cb274a51a6d" />
-  <Project Path="S:/Dev/AspIT-S1/EX11While/EX11While.csproj" Id="e6a07a34-5ab8-40a6-aa77-3a942565c7ca" />
-  <Project Path="S:/Dev/AspIT-S1/EX13Arrays/EX13Arrays.csproj" />
-  <Project Path="S:/Dev/AspIT-S1/EX14Lists/EX14Lists.csproj" Id="e67c9839-2ad4-495e-bedd-f59e1f3ae278" />
-  <Project Path="S:/Dev/AspIT-S1/EX15Time/EX15Time.csproj" Id="de6b1922-fc52-489b-9edd-7eb9694602f1" />
-  <Project Path="S:/Dev/AspIT-S1/EX16Methods/EX16Methods.csproj" />
-  <Project Path="S:/Dev/AspIT-S1/EX17Objects/EX17Objects.csproj" Id="b2b12fa0-81b0-4331-b8b9-9856a0af91ab" />
-  <Project Path="S:/Dev/AspIT-S1/EX18SimpleClasses/EX18SimpleClasses.csproj" Id="52479950-d34e-46a5-97ed-75c5faadc95c" />
-  <Project Path="S:/Dev/AspIT-S1/OOPBasics/OOPBasics.csproj" Id="3d280883-ddc2-4d22-8db3-8de92b7d8070" />
-  <Project Path="S:/Dev/AspIT-S1/Opgave1/Opgave1.csproj" Id="70f7a2f9-59b5-4fdc-b5d1-66ce5aa1af62" />
-  <Project Path="S:/Dev/AspIT-S1/Opgave2/Opgave2.csproj" Id="d5d6db8b-3b6a-43c5-8830-4fd93536aa38" />
-  <Project Path="S:/Dev/AspIT-S1/Opgave3/Opgave3.csproj" Id="82f78571-a30f-4060-9544-1f0712ce5f25" />
-  <Project Path="S:/Dev/AspIT-S1/Opgave4/Opgave4.csproj" Id="6e032e09-c94c-4405-8bba-09ed305b2953" />
-  <Project Path="S:/Dev/AspIT-S1/Opgave5/Opgave5.csproj" Id="5dd59e15-22cb-40c1-8d2d-4487a3e59ce9" />
-  <Project Path="S:/Dev/AspIT-S1/Smart Menu/Smart Menu.csproj" Id="91b90aaf-fe25-4b54-a9be-d2c63fafffc9" />
-  <Project Path="S:/Dev/AspIT-S1/WhileOpgave1/WhileOpgave1.csproj" Id="89720eb8-8bd7-4758-a665-ff410ccf4409" />
+  <Project Path="Opgave1/Opgave1.csproj" />
+  <Project Path="Opgave2/Opgave2.csproj" />
+  <Project Path="Opgave3/Opgave3.csproj" />
+  <Project Path="Opgave4/Opgave4.csproj" />
+  <Project Path="Opgave5/Opgave5.csproj" />
+  <Project Path="Smart Menu/Smart Menu.csproj" />
+  <Project Path="WhileOpgave1/WhileOpgave1.csproj" />
 </Solution>

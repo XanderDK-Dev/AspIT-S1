@@ -8,9 +8,13 @@
             Person p = new();
             try
             {
-                p.FirstName = " ";
-                p.LastName = "Hansen";
-                p.BirthDate = new DateTime(1946, 01, 02);
+                p.Name = "Old Greek Philosophy History";
+                p.Code = "CJG-678";
+                p.TName = "Karl Hansen";
+                p.Ects = 2;
+                p.Start = new DateTime(2025, 08, 11);
+                p.End = new DateTime(2030, 06, 25);
+                p.Exam = new DateTime(2028, 02, 05);
             }
             catch (ArgumentException e)
             {
@@ -18,8 +22,10 @@
             }
 
 
-            string output = p.GetFullName();
+            string output = p.Duration();
             Console.WriteLine(output);
+            string output2 = p.ToExam();
+            Console.WriteLine(output2);
         }
     }
 }
