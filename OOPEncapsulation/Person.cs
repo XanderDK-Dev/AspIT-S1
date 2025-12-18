@@ -2,7 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Linq;
 
 namespace OOPEncapsulation
 {
@@ -41,7 +43,45 @@ namespace OOPEncapsulation
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
+<<<<<<< HEAD
+                    throw new ArgumentException("Code cant be empty..");
+                }
+                
+                if (value.Length != 7)
+                {
+                    throw new ArgumentException("");
+                }
+
+                string code1 = value.Substring(0, 3);
+                if (code1.Any(char.IsDigit))
+                {
+                    throw new ArgumentException("The first part of the code cannot include numbers.");
+                }
+
+                if (code1.Any(char.IsLower))
+                {
+                    throw new ArgumentException("The first part of the code has to be uppercase.");
+                }
+
+                string code2 = value.Substring(3, 1);
+                if (code2 != "-")
+                {
+                    throw new ArgumentException("The middle has to be -");
+                }
+
+                string code3 = value.Substring(4, 3);
+                if (code3.Any(char.IsLetter))
+                {
+                    throw new ArgumentException("The last part of the code cannot include letters.");
+                }
+
+                string code4 = value.Substring(4, 1);
+                if (code4 == "0")
+                {
+                    throw new ArgumentException("The first number cannot be 0.");
+=======
                     throw new ArgumentException("Not allowed as code.");
+>>>>>>> fdb5c79a559d5e16d32459eefc0f64235131916d
                 }
                 code = value;
             }
@@ -58,7 +98,21 @@ namespace OOPEncapsulation
             {
                 if (string.IsNullOrWhiteSpace(value))
                 {
+<<<<<<< HEAD
+                    throw new ArgumentException("Teacher name cant be empty.");
+                }
+
+                if (Regex.IsMatch(value, @"^-?\+$"))
+                {
+                    throw new ArgumentException("Teacher name cannot include special characters.");
+                }
+
+                if (value.Any(char.IsDigit))
+                {
+                    throw new ArgumentException("Teacher name cannot include numbers.");
+=======
                     throw new ArgumentException("Not allowed as name.");
+>>>>>>> fdb5c79a559d5e16d32459eefc0f64235131916d
                 }
                 tName = value;
             }
