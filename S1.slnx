@@ -23,6 +23,7 @@
   <Project Path="Opgave3/Opgave3.csproj" />
   <Project Path="Opgave4/Opgave4.csproj" />
   <Project Path="Opgave5/Opgave5.csproj" />
+  <Project Path="PayCalculator/PayCheck.csproj" Id="32674a99-bbff-4db8-ac3e-c05a4b207ec4" />
   <Project Path="Smart Menu/Smart Menu.csproj" />
   <Project Path="WhileOpgave1/WhileOpgave1.csproj" />
 </Solution>
