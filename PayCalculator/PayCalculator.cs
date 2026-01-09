@@ -18,6 +18,11 @@ namespace PayCheck
             }
             set
             {
+                TimeSpan difference = value.endDate - value.startDate;
+                if (!((difference.Days == 14 && startDate.DayOfWeek == DayOfWeek.Monday) || (startDate.Day == 1 && endDate.Day == DateTime.DaysInMonth(endDate.Year, endDate.Month) && startDate.Month == endDate.Month && startDate.Year == endDate.Year)))
+                {
+                    throw new ArgumentException("Work time has to be either 14 days starting monday or a full month from start to end");
+                }
                 // Your validation goes here
                 // Check if dates are valid
                 // Check if it's 14 days starting Monday OR 1 calendar month
@@ -78,6 +83,14 @@ namespace PayCheck
             }
             set
             {
+                TimeSpan difference = payPeriod.endDate - payPeriod.startDate;
+                decimal maxHours = difference.Days * 12;
+
+                if (value < 0.00m || value > maxHours) 
+                {
+                    throw new ArgumentException($"Hourly worked must be between 0.0 and {maxHours}");
+                }
+
                 hoursWorked = value;
             }
         }
@@ -91,7 +104,7 @@ namespace PayCheck
             }
             set
             {
-                if (value < 0.00m || value > 10.000m)
+                if (value < 0.00m || value > 10000m)
                 {
                     throw new ArgumentException("Hourly salary must be between 0.0 and 10.000");
                 }
@@ -99,6 +112,51 @@ namespace PayCheck
             }
         }
 
-        
+        public PayCalculator((DateTime startDate, DateTime endDate) payPeriod, double taxPercent, decimal hoursWorked, decimal hourSalary)
+        {
+            // Assign each parameter to its Property (this triggers validation!)
+            PayPeriod = payPeriod;
+            TaxPercent = taxPercent;
+            HoursWorked = hoursWorked;
+            HourSalary = hourSalary;
+        }
+
+        public PayCalculator(int id, (DateTime startDate, DateTime endDate) payPeriod, double taxPercent, decimal hoursWorked, decimal hourSalary)
+    : this(payPeriod, taxPercent, hoursWorked, hourSalary)  // Calls the other constructor first!
+        {
+            // Then do the extra stuff
+            Id = id;
+        }
+
+        public decimal GrossPay()
+        {
+            decimal result = hoursWorked * hourSalary;
+            return result;
+        }
+
+        public decimal TaxAmount()
+        {
+            decimal result = GrossPay() * (decimal)taxPercent;
+            return result;
+        }
+
+        public decimal NetPay()
+        {
+            decimal result = GrossPay() - TaxAmount();
+            return result;
+        }
+
+        private int id;
+        public int Id
+        {
+            get
+            {
+                return id;
+            }
+            set
+            {
+                id = value;
+            }
+        }
     }
 }
