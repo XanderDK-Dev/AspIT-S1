@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CompetenceTest/1.0.0": {
+        "runtime": {
+          "CompetenceTest.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompetenceTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

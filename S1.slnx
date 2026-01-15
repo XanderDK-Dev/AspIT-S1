@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="CompetenceTest/CompetenceTest.csproj" Id="176eb23e-afac-4e39-a3e9-099139ca4055" />
   <Project Path="EX01HelloWorld/EX01HelloWorld.csproj" />
   <Project Path="EX02Datatypes/EX02Datatypes.csproj" />
   <Project Path="EX04ReadLine/EX04ReadLine.csproj" />
